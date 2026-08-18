@@ -1,0 +1,29 @@
+{
+  "sila_server": {
+    "hostname": "0.0.0.0",
+    "port": 0,
+    "tls": false,
+    "require_client_auth": false,
+    "root_certificates": null,
+    "certificate_chain": null,
+    "private_key": null,
+    "options": {},
+    "uuid": "8ae8db01-8ce0-4b61-be76-79e28f339b0d",
+    "name": "Pi 4 Weather Station",
+    "type": "Example",
+    "description": "A connector for the Pi 4 Weather Station built with the UniteLabs CDK.",
+    "version": "0.1",
+    "vendor_url": "https://unitelabs.io/",
+    "default_lifetime": 3600.0
+  },
+  "cloud_servers": {
+    "enabled": true,
+    "endpoints": []
+  },
+  "discovery": {
+    "ip_version": "ipv4",
+    "network_interfaces": null,
+    "certificate": null
+  },
+  "logging": null
+}
